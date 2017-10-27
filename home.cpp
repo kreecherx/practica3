@@ -3,12 +3,13 @@ Calculadora simple con funciones basicas
 */
 #include <iostream>
 //#include "incrementos.h"
-//#include "decrementos.h"
+#include "decrementos.h"
 
 using namespace std;
 
 int main (){
 	int c;
+	 Decrementos *decrementos = new Decrementos();
 	do{
 		system("CLS");
 		cout<<"Escoja la operacion que desea realizar: \n1) Suma\n2) Resta\n3) Division\n4) Multiplicacion\n\n0)Salir\n\n";
@@ -19,7 +20,7 @@ int main (){
 				//suma();
 				break;
 			case 2:
-				//resta();
+				decrementos->resta();
 				break;
 			case 3:
 				//division();
