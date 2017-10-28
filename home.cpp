@@ -2,7 +2,7 @@
 Calculadora simple con funciones basicas
 */
 #include <iostream>
-//#include "incrementos.h"
+#include "incrementos.h"
 #include "decrementos.h"
 
 using namespace std;
@@ -17,7 +17,7 @@ int main (){
 		cin>>c;
 		switch(c){
 			case 1:
-				//suma();
+				incrementos->suma();
 				break;
 			case 2:
 				decrementos->resta();
