@@ -10,6 +10,7 @@ using namespace std;
 int main (){
 	int c;
 	 Decrementos *decrementos = new Decrementos();
+	 Incrementos *incrementos = new Incrementos();
 	do{
 		system("CLS");
 		cout<<"Escoja la operacion que desea realizar: \n1) Suma\n2) Resta\n3) Division\n4) Multiplicacion\n\n0)Salir\n\n";
@@ -26,7 +27,7 @@ int main (){
 				//division();
 				break;
 			case 4:
-				//multiplicacion();
+				incrementos->multiplicacion();
 				break;
 			case 0:
 				break;
