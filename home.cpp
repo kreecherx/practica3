@@ -13,8 +13,10 @@ int main (){
 	 Incrementos *incrementos = new Incrementos();
 	do{
 		system("CLS");
-		cout<<"Escoja la operacion que desea realizar: \n1) Suma\n2) Resta\n3) Division\n4) Multiplicacion\n\n0)Salir\n\n";
-		cout<<"Ingrese el numero: ";
+		cout<<"Escoja la operaci\242n que desea realizar: \n1) Suma\n2) Resta\n"
+		"3) Divisi\242n\n4) Multiplicaci\242n\n"
+		"5) Potencia \n6) Ra\241z Cuadrada\n0) Salir\n\n";
+		cout<<"Ingrese el n\243mero: ";
 		cin>>c;
 		switch(c){
 			case 1:
@@ -29,10 +31,16 @@ int main (){
 			case 4:
 				incrementos->multiplicacion();
 				break;
+			case 5:
+				incrementos->potencia();
+				break;
+			case 6:
+				decrementos->raiz();
+				break;
 			case 0:
 				break;
 			default:
-				cout<<"El numero ingresado no es valido, vuelva a intentarlo\n\n";
+				cout<<"El n\243mero ingresado no es valido, vuelva a intentarlo\n\n";
 				system("PAUSE");
 		}
 	}while(c!=0);

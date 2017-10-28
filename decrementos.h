@@ -1,22 +1,30 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 class Decrementos
 {
 	public:
-	int a,b;
+	double a,b,res;
 	public:
 		void resta();
+		void raiz();
 };
 
 void Decrementos::resta()
 {
-	cout<<"teclee un numero: ";
+	cout<<"teclee un n\243mero: ";
 	cin>>a;
 	system("cls");
-	cout<<"tecle un numero: ";
+	cout<<"tecle un n\243mero: ";
 	cin>>b;
 	system("cls");
 	cout<<"= "<<a-b<<endl;
 	system("pause");
 }
 
+void Decrementos::raiz(){
+	cout<<"Ingrese el valor"<<endl;
+	cin>>a;
+	cout<<"La ra\241z cuadrada de "<<a<<" es: "<<sqrt(a)<<endl;
+	system("pause");
+}

@@ -1,5 +1,6 @@
 #include<iostream>
 #include<windows.h>
+#include<math.h>
 using namespace std;
 class Incrementos
 {
@@ -8,23 +9,25 @@ class Incrementos
 	public:
 		void suma();
         void multiplicacion();
+        void potencia();
 };
 
 void Incrementos::suma()
 {
-	 cout<<"introdusca el primer valor"<<endl;
+	 cout<<"Introduzca el primer valor"<<endl;
       cin>>a;
-      cout<<"introdusca el segundo valor"<<endl;
+      cout<<"Introduzca el segundo valor"<<endl;
       cin>>b;
       res=a+b;
       cout<<a<<"+"<<b<<"="<<res<<endl;
       system("pause");
 }
+
 void Incrementos::multiplicacion()
 {
-	 cout<<"introduzca el primer valor"<<endl;
+	 cout<<"Introduzca el primer valor"<<endl;
       cin>>a;
-      cout<<"introduzca el segundo valor"<<endl;
+      cout<<"Introduzca el segundo valor"<<endl;
       cin>>b;
       res=a*b;
      cout<<a<<"*"<<b<<"="<<res<<endl;
@@ -32,3 +35,12 @@ void Incrementos::multiplicacion()
 
 }
 
+void Incrementos::potencia(){
+	cout<<"Introduzca el valor"<<endl;
+	cin>>a;
+	cout<<"Indique el valor del exponente"<<endl;
+	cin>>b;
+	res=pow(a,b);
+	cout<<a<<"^"<<b<<"="<<res<<endl;
+	system("pause");
+}
