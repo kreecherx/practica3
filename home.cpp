@@ -5,6 +5,30 @@ Calculadora simple con funciones basicas
 #include "incrementos.h"
 #include "decrementos.h"
 
+/*
+	El programa funcionó de manera correcta.
+	Favor de tener usuarios representativos de git para que en un futuro no tengan
+	inconvenientes, ya que "idarkkreecher" es algo complicado de entender, sobre todo si trabajan
+	en un ambiente muy profesional, todo depende del ámbito laboral.
+	
+	En cuanto a los commits, me parece que los entendieron bien, la unica observación es que traten
+	de hacerlos más cortos por ejemplo en vez de
+	"Se agrego la funcion divicion y fue llamada en el archivo principal :v"
+	algo como:
+	"Función división"
+	
+	Para no crear conflicto al leer todo el texto, de igual manera CUIDAR LA ORTOGRAFÍA y evitar uso de
+	"emojis" o caritas, va de la mano con lo anterior, hay que ser profesionales en el trabajo. En esta ocasión
+	no hay mayor problema pero como tip deben tomarlo en cuenta.
+	
+	EQUIPO:
+	- SONI GONZALEZ EDSON IVAN
+	- GONZALEZ GARCIA EDGAR
+	- PELCASTRE GARCIA BRYAN JAHAZIEL
+	- CARPIO PEÑA YAQUELIN
+	- PEREZ HERNANDEZ RODOLFO
+
+*/
 using namespace std;
 
 int main (){
