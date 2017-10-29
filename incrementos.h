@@ -5,7 +5,7 @@ using namespace std;
 class Incrementos
 {
 	private:
-	double a,b,res;
+		double a,b,res;
 	public:
 		void suma();
         void multiplicacion();
@@ -19,7 +19,7 @@ void Incrementos::suma()
       cout<<"Introduzca el segundo valor"<<endl;
       cin>>b;
       res=a+b;
-      cout<<a<<"+"<<b<<"="<<res<<endl;
+      cout<<a<<" + "<<b<<" = "<<res<<endl;
       system("pause");
 }
 
@@ -30,7 +30,7 @@ void Incrementos::multiplicacion()
       cout<<"Introduzca el segundo valor"<<endl;
       cin>>b;
       res=a*b;
-     cout<<a<<"*"<<b<<"="<<res<<endl;
+     cout<<a<<" * "<<b<<" = "<<res<<endl;
       system("pause");
 
 }
@@ -41,6 +41,6 @@ void Incrementos::potencia(){
 	cout<<"Indique el valor del exponente"<<endl;
 	cin>>b;
 	res=pow(a,b);
-	cout<<a<<"^"<<b<<"="<<res<<endl;
+	cout<<a<<"^"<<b<<" = "<<res<<endl;
 	system("pause");
 }

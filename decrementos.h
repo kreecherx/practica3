@@ -3,40 +3,45 @@
 using namespace std;
 class Decrementos
 {
-	public:
-	double a,b,res;
+	private:
+		double a,b,res;
+		bool ch;
 	public:
 		void resta();
 		void raiz();
-		void divicion();
+		void division();
 };
 
 void Decrementos::resta()
 {
-	cout<<"teclee un n\243mero: ";
+	cout<<"Teclee un n\243mero: ";
 	cin>>a;
-	system("cls");
-	cout<<"tecle un n\243mero: ";
+	cout<<"Teclee otro n\243mero: ";
 	cin>>b;
-	system("cls");
-	cout<<"= "<<a-b<<endl;
+	cout<<a<<" + "<<b<<" = "<<a-b<<endl;
 	system("pause");
 }
 
 void Decrementos::raiz(){
 	cout<<"Ingrese el valor"<<endl;
 	cin>>a;
-	cout<<"La ra\241z cuadrada de "<<a<<" es: "<<sqrt(a)<<endl;
+	if(a>=0){
+		cout<<"La ra\241z cuadrada de "<<a<<" es: "<<sqrt(a)<<endl;	
+		ch=true;
+	}
+	else{
+		cout<<"No es posible realizar raiz cuadrada de numeros negativos"<<endl;
+	}
 	system("pause");
 }
-void Decrementos::divicion()
+void Decrementos::division()
 {
-	cout<<"teclee un n\243mero: ";
+	cout<<"Teclee un n\243mero: ";
 	cin>>a;
 	
-	cout<<"tecle un n\243mero: ";
+	cout<<"Teclee un n\243mero: ";
 	cin>>b;
 	
-	cout<<"= "<<a/b<<endl;
+	cout<<a<<" / "<<b<<" = "<<a/b<<endl;
 	system("pause");
 }

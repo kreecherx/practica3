@@ -1,4 +1,4 @@
-/* @author Equipo  jajaziel Pelcastre, Ingenieria de Software
+/* @author Equipo Pelcastre, Ingenieria de Software
 Calculadora simple con funciones basicas
 */
 #include <iostream>
@@ -26,8 +26,7 @@ int main (){
 				decrementos->resta();
 				break;
 			case 3:
-			decrementos->divicion();
-			
+				decrementos->division();
 				break;
 			case 4:
 				incrementos->multiplicacion();
