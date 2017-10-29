@@ -1,5 +1,5 @@
 #include <iostream>
-#include<math.h>
+#include <math.h>
 using namespace std;
 class Decrementos
 {
@@ -8,6 +8,7 @@ class Decrementos
 	public:
 		void resta();
 		void raiz();
+		void divicion();
 };
 
 void Decrementos::resta()
@@ -26,5 +27,16 @@ void Decrementos::raiz(){
 	cout<<"Ingrese el valor"<<endl;
 	cin>>a;
 	cout<<"La ra\241z cuadrada de "<<a<<" es: "<<sqrt(a)<<endl;
+	system("pause");
+}
+void Decrementos::divicion()
+{
+	cout<<"teclee un n\243mero: ";
+	cin>>a;
+	
+	cout<<"tecle un n\243mero: ";
+	cin>>b;
+	
+	cout<<"= "<<a/b<<endl;
 	system("pause");
 }
